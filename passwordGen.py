@@ -35,3 +35,4 @@ def passwordGenerator(num = 10):
 
 # calling password generator.
 passwordGenerator()
+
