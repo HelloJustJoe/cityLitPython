@@ -1,0 +1,38 @@
+Week 1: Write a programme to play Rock-Paper-Scissors against the user:
+https://en.wikipedia.org/wiki/Rock_paper_scissors. This is a great workout for variables,
+conditionals and loops – the basic tools of all programming.
+
+
+Week 2: Solve the FizzBuzz challenge: Write a program that prints the numbers from 1 to 100. 
+But for multiples of three print “Fizz” instead of the number and for the multiples of five 
+print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”. 
+(This used to be a very common interview question for junior coding jobs.)
+
+
+Week 3: Write a programme that can play the Wiki-Link Game:
+https://en.wikipedia.org/wiki/Wikipedia:Wiki-Link_Game.
+
+
+Week 4: Read in a text file, break it down into words and count how many times each word 
+appears in the file. Print the top 10 words. Optional: Exclude the most common English words.
+
+
+Week 5: Make a typing speed tester. Choose a random sentence from a text file (e.g. a
+novel from Project Gutenberg) and have the user type it out as fast as they can. Grade 
+them on both speed and accuracy. Measuring accuracy is tricky; you need to decide how 
+you’ll do it.
+
+Week 6: EASTER BREAK – focus on your project here.
+
+Week 7: Add a simple tkinter GUI to one of your previous homework projects.
+
+Week 8: Rewrite one of your previous homework projects using classes.
+
+Week 9: Add a good set of unit tests to a previous homework project.
+
+Week 10: Look for places in a previous homework project where the code runs slowly. Time 
+it and then see whether you can improve it now you know more about writing efficient 
+algorithms.
+
+Week 11: Tidy up a previous homework project: add comments and make the code look as
+professional as you can. Then make it public as part of your online portfolio.
