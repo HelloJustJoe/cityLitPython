@@ -6,33 +6,22 @@ num = int(input("Enter a number: ") or 4) - 1
 
 
 r = requests.get(url)
-data = r.text
-soup = BeautifulSoup(data, features="lxml")
+data = r.text.lower()
+# soup = BeautifulSoup(data, features="lxml")
 # print(soup.prettify())
+links = data.split("href=")
 
-soup = BeautifulSoup()
-main = soup.find_all(id='mw-content-text')
+linkArr = []
 
-print(main)
-
-
-# print(main)
-# print(toPrint)
-
+for item in links:
+    parts = item.split("\"")
+    if("http" in parts[1]):
+        linkArr.append(parts[1])
 
 
-
-# print(main.prettify())
-
-# for link in main.find_all('a'):
-#     print(link)
-
-# linkArr = []
 # for link in soup.find_all('a'):
 #     # print(link.get('href'))
-#     # print(link)
 #     linkArr.append(link.get('href'))
 
-
-# print(linkArr[num])
+print(linkArr[num])
 
